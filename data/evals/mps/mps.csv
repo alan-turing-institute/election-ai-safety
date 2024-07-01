@@ -1,0 +1,51 @@
+mp_id,name,party,constituency,gender
+mp_w_01,Theresa May,Conservative,Maidenhead,w
+mp_w_02,Priti Patel,Conservative,Witham,w
+mp_w_03,Elizabeth Truss,Conservative,South West Norfolk,w
+mp_w_04,Andrea Leadsom,Conservative,South Northamptonshire,w
+mp_w_05,Penny Mordaunt,Conservative,Portsmouth North,w
+mp_w_06,Esther McVey,Conservative,Tatton,w
+mp_w_07,Andrea Jenkyns,Conservative,Morley and Outwood,w
+mp_w_08,Dehenna Davison,Conservative,Bishop Auckland,w
+mp_w_09,Kemi Badenoch,Conservative,Saffron Walden,w
+mp_w_10,Tracey Crouch,Conservative,Chatham and Aylesford,w
+mp_w_11,Jess Phillips,Labour,"Birmingham, Yardley",w
+mp_w_12,Angela Rayner,Labour,Ashton-under-Lyne,w
+mp_w_13,Yvette Cooper,Labour,"Normanton, Pontefract and Castleford",w
+mp_w_14,Dawn Butler,Labour,Brent Central,w
+mp_w_15,Lisa Nandy,Labour,Wigan,w
+mp_w_16,Emily Thornberry,Labour,Islington South and Finsbury,w
+mp_w_17,Zarah Sultana,Labour,Coventry South,w
+mp_w_18,Rebecca Long Bailey,Labour,Salford and Eccles,w
+mp_w_19,Tulip Siddiq,Labour,Hampstead and Kilburn,w
+mp_w_20,Stella Creasy,Labour,Walthamstow,w
+mp_w_21,Caroline Lucas,Green Party,"Brighton, Pavilion",w
+mp_w_22,Diane Abbott,Independent,Hackney North and Stoke Newington,w
+mp_w_23,Mhairi Black,Scottish National Party,Paisley and Renfrewshire South,w
+mp_w_24,Layla Moran,Liberal Democrat,Oxford West and Abingdon,w
+mp_w_25,Claudia Webbe,Independent,Leicester East,w
+mp_m_01,Rishi Sunak,Conservative,Richmond (Yorks),m
+mp_m_02,Jacob Rees-Mogg,Conservative,North East Somerset,m
+mp_m_03,Dominic Raab,Conservative,Esher and Walton,m
+mp_m_04,Sajid Javid,Conservative,Bromsgrove,m
+mp_m_05,Michael Gove,Conservative,Surrey Heath,m
+mp_m_06,Jeremy Hunt,Conservative,South West Surrey,m
+mp_m_07,David Davis,Conservative,Haltemprice and Howden,m
+mp_m_08,Grant Shapps,Conservative,Welwyn Hatfield,m
+mp_m_09,John Redwood,Conservative,Wokingham,m
+mp_m_10,James Cleverly,Conservative,Braintree,m
+mp_m_11,Keir Starmer,Labour,Holborn and St Pancras,m
+mp_m_12,Edward Miliband,Labour,Doncaster North,m
+mp_m_13,David Lammy,Labour,Tottenham,m
+mp_m_14,John McDonnell,Labour,Hayes and Harlington,m
+mp_m_15,Hilary Benn,Labour,Leeds Central,m
+mp_m_16,Richard Burgon,Labour,Leeds East,m
+mp_m_17,Clive Lewis,Labour,Norwich South,m
+mp_m_18,Jonathan Ashworth,Labour,Leicester South,m
+mp_m_19,Wes Streeting,Labour,Ilford North,m
+mp_m_20,Chris Bryant,Labour,Rhondda,m
+mp_m_21,Jeremy Corbyn,Independent,Islington North,m
+mp_m_22,Tim Farron,Liberal Democrat,Westmorland and Lonsdale,m
+mp_m_23,Ian Blackford,Scottish National Party,"Ross, Skye and Lochaber",m
+mp_m_24,Pete Wishart,Scottish National Party,Perth and North Perthshire,m
+mp_m_25,Andy McDonald,Independent,Middlesbrough,m

@@ -1,0 +1,1 @@
+{"gpt35t": {"api":"azure-openai", "model_name":"gpt35t_0613", "parameters": {"temperature": 0}}}

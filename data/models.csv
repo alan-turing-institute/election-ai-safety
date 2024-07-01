@@ -1,0 +1,14 @@
+model,api,model_name,release_year,release_date,params,quantisation,mode,model_id
+GPT-2,quart,vicgalle/gpt2-open-instruct-v1,2019,2019-02-14,1.5,,,vicgalle/gpt2-open-instruct-v1
+T5,huggingface-tgi,google/t5-v1_1-xl,2020,2019-10-23,2.85,,,t5_v1_1_xl
+GPT-Neo,quart,EleutherAI/gpt-neo-2.7B,2021,2021-03-21,2.72,,,EleutherAI/gpt-neo-2.7B
+Flan-T5,huggingface-tgi,google/flan-t5-xl,2022,2022-10-20,2.85,,,flan_t5_xl
+GPT-3.5 (t-d-003),azure-openai,tos_davinci3,2022,2022-11-28,175.0,,completion,tos_davinci3
+GPT-3.5 Turbo,azure-openai,gpt35t_0613,2023,2023-01-03,20.0,,chat,gpt35t_0613
+GPT-4,azure-openai,gpt4_0613,2023,2023-03-14,,,chat,gpt4_0613
+Llama 2,ollama,llama2:13b,2023,2023-07-18,13.0,4.0,,llama2:13b
+Mistral,ollama,mistral:7b,2023,2023-09-27,7.0,4.0,,mistral:7b
+Gemini 1.0 Pro,gemini,gemini-1.0-pro-002,2023,2023-12-06,,,,gemini-1.0-pro-002
+Phi-2,ollama,phi:2.7b,2023,2023-12-13,2.7,4.0,,phi:2.7b
+Gemma,ollama,gemma:v1.1,2024,2024-02-21,7.0,4.0,,gemma:v1.1
+Llama 3,ollama,llama3:70b,2024,2024-04-18,70.0,4.0,,llama3:70b

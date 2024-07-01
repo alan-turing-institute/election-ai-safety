@@ -1,0 +1,30 @@
+{
+    "temperature": {
+        "huggingface-tgi": "temperature",
+        "quart": "temperature",
+        "azure-openai": "temperature",
+        "ollama": "temperature",
+        "gemini": "temperature"
+    },
+    "top_p": {
+        "huggingface-tgi": "top_p",
+        "quart": "top_p",
+        "azure-openai": "top_p",
+        "ollama": "top_p",
+        "gemini": "top_p"
+    },
+    "top_k": {
+        "huggingface-tgi": "",
+        "quart": "",
+        "azure-openai": "",
+        "ollama": "top_k",
+        "gemini": "top_k"
+    },
+    "max_tokens": {
+        "huggingface-tgi": "max_tokens",
+        "quart": "max_tokens",
+        "azure-openai": "max_tokens",
+        "ollama": "num_predict",
+        "gemini": "max_output_tokens"
+    }
+}
