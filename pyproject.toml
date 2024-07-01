@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "election-ai-safety"
+version = "0.1.0"
+description = ""
+authors = ["Angus Williams <arwilliams@turing.ac.uk>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.4"
+jsonlines = "^4.0.0"
+levenshtein = "^0.25.1"
+matplotlib = "^3.9.0"
+nbformat = "^5.10.4"
+numpy = "^2.0.0"
+openai = "^1.35.7"
+pandas = "^2.2.2"
+quart = "^0.19.6"
+scikit-learn = "^1.5.0"
+seaborn = "^0.13.2"
+spacy = "^3.7.5"
+tiktoken = "^0.7.0"
+transformers = "^4.40.1"
+torch = "^2.3.0"
+
+[[tool.poetry.source]]
+name = "pytorch_cpu"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
