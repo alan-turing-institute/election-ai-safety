@@ -17,7 +17,7 @@ Example visualisation code (Python) on eval results is available in `notebooks/a
 
 ### 🤖 Experiments
 
-The resulting counts and proportions of human assigments for each experiment (exp_MP<sub>L</sub>, exp_MP<sub>R</sub>, exp_VT) are available in `data/experiments/*/proportions.csv`.
+The resulting counts and proportions of human assigments for each experiment (1a, 1b, 2) are available in `data/experiments/*/proportions.csv`.
 
 Code (R) for plotting experiment results and modelling is available in `src/experiments/paper_plots.R` and `src/experiments/regression.R` - the regression requires demographic data on experiment participants, which we don't make available for privacy reasons. 
 

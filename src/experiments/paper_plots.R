@@ -66,15 +66,15 @@ model_labels <- c("GPT2" = "GPT-2",
                   "Llama3" = "Llama 3")
 
 ##############################
-##### EXPERIMENT VT ##########
+##### EXPERIMENT 2 ##########
 ##############################
 
-expvt_prop <- read.csv("../../data/experiments/vt/proportions.csv")
-expvt_prop <- expvt_prop[61:nrow(expvt_prop),]
+exp2_prop <- read.csv("../../data/experiments/exp2/proportions.csv")
+exp2_prop <- exp2_prop[61:nrow(exp2_prop),]
 
-# exp_vt_proportions_per_pipeline_by_release
+# exp_2_proportions_per_pipeline_by_release
 
-plot_facet_lollipop_per_pipeline_vs_human(proportions_pipeline_df = expvt_prop,
+plot_facet_lollipop_per_pipeline_vs_human(proportions_pipeline_df = exp2_prop,
                                           title = "",
                                           model_order = names(model_labels),
                                           model_labels = model_labels,
@@ -85,12 +85,12 @@ plot_facet_lollipop_per_pipeline_vs_human(proportions_pipeline_df = expvt_prop,
 ##### EXPERIMENT MP_L ########
 ##############################
 
-expmpl_prop <- read.csv("../../data/experiments/mp_l/proportions.csv")
-expmpl_prop <- expmpl_prop[61:nrow(expmpl_prop),]
+exp1a_prop <- read.csv("../../data/experiments/exp1a/proportions.csv")
+exp1a_prop <- exp1a_prop[61:nrow(exp1a_prop),]
 
-# exp_mpl_proportions_per_pipeline_by_release
+# exp_1a_proportions_per_pipeline_by_release
 
-plot_facet_lollipop_per_pipeline_vs_human(proportions_pipeline_df = expmpl_prop,
+plot_facet_lollipop_per_pipeline_vs_human(proportions_pipeline_df = exp1a_prop,
                                           title = "",
                                           model_order = names(model_labels),
                                           model_labels = model_labels,
@@ -101,12 +101,12 @@ plot_facet_lollipop_per_pipeline_vs_human(proportions_pipeline_df = expmpl_prop,
 ##### EXPERIMENT MP_R ########
 ##############################
 
-expmpr_prop <- read.csv("../../data/experiments/mp_r/proportions.csv")
-expmpr_prop <- expmpr_prop[61:nrow(expmpr_prop),]
+exp1b_prop <- read.csv("../../data/experiments/exp1b/proportions.csv")
+exp1b_prop <- exp1b_prop[61:nrow(exp1b_prop),]
 
-# exp_mpr_proportions_per_pipeline_by_release
+# exp_1b_proportions_per_pipeline_by_release
 
-plot_facet_lollipop_per_pipeline_vs_human(proportions_pipeline_df = expmpr_prop,
+plot_facet_lollipop_per_pipeline_vs_human(proportions_pipeline_df = exp1b_prop,
                                           title = "",
                                           model_order = names(model_labels),
                                           model_labels = model_labels,
@@ -119,9 +119,9 @@ plot_facet_lollipop_per_pipeline_vs_human(proportions_pipeline_df = expmpr_prop,
 
 ### together
 
-all_exp <- rbind(expvt_prop,
-                 expmpl_prop,
-                 expmpr_prop)
+all_exp <- rbind(exp2_prop,
+                 exp1a_prop,
+                 exp1b_prop)
 
 avg_proportions_per_post <- aggregate(proportions ~ model, data = all_exp, FUN = mean)
 avg_proportions_per_post <- avg_proportions_per_post[order(avg_proportions_per_post$proportions),]
@@ -151,12 +151,12 @@ plot_proportions_vs_human(proportions_df = all_exp,
 
 ### split
 
-expvt_prop$experiment <- "Voting"
-expmpl_prop$experiment <- "MP (LW)"
-expmpr_prop$experiment <- "MP (RW)"
-expall_prop <- rbind(expvt_prop,
-                     expmpl_prop,
-                     expmpr_prop)
+exp2_prop$experiment <- "Voting"
+exp1a_prop$experiment <- "MP (LW)"
+exp1b_prop$experiment <- "MP (RW)"
+expall_prop <- rbind(exp2_prop,
+                     exp1a_prop,
+                     exp1b_prop)
 
 theme <- ggthemes::theme_hc() + theme(
   panel.border = element_blank(),
