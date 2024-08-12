@@ -1,4 +1,4 @@
-# LLM Disinfo Paper
+# LLM Election Disinfo Paper
 
 *Large language models can consistently generate high-quality content for election disinformation operations*
 
