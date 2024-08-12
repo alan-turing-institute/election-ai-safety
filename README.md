@@ -1,6 +1,6 @@
-# Election AI Safety Paper (name TBC)
+# LLM Disinfo Paper
 
-*Measuring compliance and "humanness" of Large Language Models for election misinformation generation.*
+*Large language models can consistently generate high-quality content for election disinformation operations*
 
 This study uses [**prompto**](https://github.com/alan-turing-institute/prompto).
 
