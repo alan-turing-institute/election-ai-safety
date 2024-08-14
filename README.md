@@ -1,8 +1,10 @@
 # LLM Election Disinfo Paper
 
-*Large language models can consistently generate high-quality content for election disinformation operations*
+Repo for [*"Large language models can consistently generate high-quality content for election disinformation operations."*](https://arxiv.org/abs/2408.06731)
 
 This study uses [**prompto**](https://github.com/alan-turing-institute/prompto).
+
+![Diagram](diselect_diagram.png?raw=true "Diagram")
 
 ### 📏 <span style="font-variant:small-caps;">DisElect</span> Eval
 
